@@ -6,7 +6,7 @@ To perform in depth analysis on the e-commerce dataset in SQL, and further use p
 ## Dataset used
 - Dataset: <a href="https://www.kaggle.com/datasets/devarajv88/target-dataset">e-commerce dataset</a>
 
-## Questions (KPIs)
+## Questions
 **Basic Queries**<br>
 1. List all unique cities where customers are located.
 2. Count the number of orders placed in 2017.
@@ -32,7 +32,10 @@ To perform in depth analysis on the e-commerce dataset in SQL, and further use p
 
 
 ## Process
-1. Post downloading the dataset archieve(zip file), extract in a seperate folder.
-2. Using jupyter notebook to push the tables to SQL server(MySQL localhost used in this project)
-3. Firing all the queries in **SQL database** using appropriate **functions, joins, filters, CTEs, windows function, etc.**
+1. Post downloading the dataset archieve(zip file), it is extracted in a seperate folder.
+2. Used jupyter notebook to push the tables to SQL server(MySQL localhost used in this project)
+3. Fired all the queries in **SQL database** using appropriate **functions, joins, filters, CTEs, windows function, etc.**
 4. Running the same queries in jupyter notebook using _mysql connector library_ and viewing the output as a dataframe. Further creating any relevant plots like **bar charts, line charts, etc.** using _matplotlib_ and _seaborn library_.
+
+## Conclusion
+SQL is used in tandem with python to meet the project objective and perform the required analysis on the e-commerce dataset.
