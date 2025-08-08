@@ -133,7 +133,8 @@ FROM(SELECT
     JOIN payments p ON p.order_id = o.order_id) AS t
 WHERE customer_order_count > 1
 -- customers with More than 1 order will be filtered and 
--- hence moving average will be calculated as per 2, 3, 4 or more orders;
+-- hence moving average will be calculated as per 2, 3, 4 or more orders
+;
 
 -- 2. Calculate the cumulative sales per month for each year.
 WITH monthly_sales AS (
